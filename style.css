@@ -1,0 +1,26 @@
+table 
+{
+    border:5px solid black;
+}
+
+th, td 
+{
+    border:1px solid black;
+}
+
+td, th, img
+{
+    padding: 1rem;
+    width: fit-content;
+    text-align: center;
+}
+
+img
+{
+    width: 200px;
+}
+
+tr td:nth-child(2)
+{
+    font-weight: bold;
+}
